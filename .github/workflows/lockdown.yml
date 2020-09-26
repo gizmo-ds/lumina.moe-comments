@@ -13,7 +13,7 @@ jobs:
       - uses: dessant/repo-lockdown@v2
         with:
           github-token: ${{ github.token }}
-          exclude-issue-labels: "comment"
+          exclude-issue-labels: "💬 comment"
           close-issue: true
           lock-issue: true
           close-pr: true
